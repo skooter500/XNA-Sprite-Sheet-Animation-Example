@@ -9,9 +9,6 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
 
-//// BRYANS CHANGES!!!!!!
-
-
 
 namespace WindowsGame10
 {
@@ -63,6 +60,15 @@ namespace WindowsGame10
             person = new Person();
             person.Position.X += 50;
             entities.Add(person);
+
+            person = new Person();
+            person.Position.X += 100;
+            entities.Add(person);
+            person = new Person();
+            person.Position.X += 150;
+            entities.Add(person);
+
+
             entities.Add(new Tonaty());
             base.Initialize();
         }
